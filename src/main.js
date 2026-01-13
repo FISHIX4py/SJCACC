@@ -1,4 +1,3 @@
-console.log("test");
 const dom = {
   input: {
     trim1: document.querySelector("#trim-1"),
