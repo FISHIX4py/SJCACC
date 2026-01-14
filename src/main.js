@@ -27,6 +27,9 @@ inputs.forEach((input) => {
     if (Number(input.value) < 0) {
       input.value = 0;
     }
+    if (isNaN(input.value)) {
+      input.value = "";
+    }
   });
 });
 
